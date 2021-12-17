@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+           background-image: url("images/wall1.jpg");
+       }
+        .outer{
+            left:300px;
+            margin:20px;
+            position: relative;
+            display:grid;
+            grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            width: 640px;
+            height: 640px;
+            padding: 1px;
+            border:25px solid grey;
+        }
+        .black{
+            float:left;
+            background-color: #999;
+            width: auto;
+            height: auto;
+            text-align: center;
+            font-size: 50px;
+            vertical-align: middle;
+        }
+        .white{
+            float:left;
+            text-align: center;
+            background-color:#fff;
+            width: auto;
+            height: auto;
+            font-size: 50px;
+            vertical-align: middle;
+        }
+        h1{
+            color:red;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-shadow: 2px 2px 8px wheat;
+        }
+        div:hover{
+            background-color:lightslategrey;
+        }
+
+        @keyframes trial{     
+            50%  {background-color: blue;}
+            100% {background-color:red;}
+        }
+        #t{
+            animation-name: trial;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">CHESS</h1>
+    <div class="outer" >
+        <div class="white">&#9820;</div>
+<div class="black">&#9822;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9819;</div>
+<div class="white">&#9818;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9822;</div>
+<div class="black">&#9820;</div>
+<!-- 2nd -->
+<div class="black">&#9821;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9821;</div>
+<div class="black" id="t">&#9821;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9821;</div>
+<!-- 3th -->
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<!-- 4st -->
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<!-- 5th -->
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<!-- 6th -->
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<!-- 7th -->
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<!-- 8th -->
+<div class="black">&#9814;</div>
+<div class="white">&#9816;</div>
+<div class="black">&#9815;</div>
+<div class="white">&#9813;</div>
+<div class="black">&#9812;</div>
+<div class="white">&#9815;</div>
+<div class="black">&#9816;</div>
+<div class="white">&#9814;</div>
+       
+    </div>
+
+</body>
+</html>
